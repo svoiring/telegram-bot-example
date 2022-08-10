@@ -1,0 +1,20 @@
+spring:
+  codec:
+    max-in-memory-size: 2MB
+  main:
+    lazy-initialization: false
+
+server:
+  port: 8881
+  compression:
+    enabled: true
+    mime-types: application/json
+
+logging:
+  level:
+    com.example: debug
+
+
+bot:
+  telegram-name: name
+  telegram-token: key
